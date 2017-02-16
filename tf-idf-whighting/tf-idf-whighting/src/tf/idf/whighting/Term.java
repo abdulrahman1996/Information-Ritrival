@@ -23,6 +23,7 @@ public class Term {
        for( i =0 ; i < words.size(); i++)
            for(int j = 0 ;j <words.size() ; j ++)
            {
+               
                if( words.get(i).equals(words.get(j)))
                        {
                           counter[i] ++ ;  
